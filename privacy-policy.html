@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dual Pilgrim - Privacy Policy</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}
+h1{color:#DAA520}h2{color:#555;border-bottom:1px solid #eee;padding-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}
+a{color:#DAA520}hr{border:none;border-top:1px solid #eee;margin:24px 0}
+.nav{background:#f9f9f9;padding:12px;border-radius:8px;margin-bottom:20px;font-size:14px}
+.nav a{margin-right:12px;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="nav">
+<a href="privacy-policy.html">EN</a>
+<a href="privacy-policy-ja.html">JA</a>
+<a href="privacy-policy-es.html">ES</a>
+<a href="privacy-policy-zh-tw.html">ZH-TW</a>
+<a href="privacy-policy-ko.html">KO</a>
+<a href="privacy-policy-fr.html">FR</a>
+<a href="privacy-policy-de.html">DE</a>
+<a href="privacy-policy-pt.html">PT</a>
+<a href="privacy-policy-it.html">IT</a>
+<a href="privacy-policy-zh-cn.html">ZH-CN</a>
+</div>
+<h1>Dual Pilgrim - Privacy Policy</h1>
+<br>
+<p><strong>Last Updated: March 24, 2026</strong></p>
+<br>
+<p>This Privacy Policy describes how Dual Pilgrim ("App," "we," "us," or "our"), developed by Luke Chiang ("Data Controller"), collects, uses, stores, and protects your personal data. We are committed to protecting your privacy in compliance with the <strong>EU General Data Protection Regulation (GDPR)</strong>, the <strong>Japan Act on the Protection of Personal Information (APPI)</strong>, the <strong>Brazil Lei Geral de Protecao de Dados (LGPD)</strong>, and other applicable data protection laws.</p>
+<br>
+<hr>
+<br>
+<h2>1. Data Controller</h2>
+<br>
+<p><strong>Name:</strong> Luke Chiang</p>
+<p><strong>Location:</strong> Taiwan</p>
+<p><strong>Email:</strong> [contact@buencamino.app]</p>
+<br>
+<p>For GDPR purposes, Luke Chiang acts as the Data Controller for any personal data processed through the App.</p>
+<br>
+<h2>2. What Data We Collect</h2>
+<br>
+<p>We collect minimal data. Most information stays on your device. Cloud backup is entirely optional.</p>
+<br>
+<h3>2.1 Data Stored Locally Only (On Your Device)</h3>
+<br>
+<p>The following data is stored exclusively on your device using SharedPreferences and local storage. <strong>This data is never transmitted to any server unless you opt in to Cloud Backup (Section 2.3):</strong></p>
+<br>
+<table>
+<tr><th>Data</th><th>Purpose</th><th>Storage</th></tr>
+<tr><th>Language preference</th><th>Display the App in your chosen language</th><th>SharedPreferences</th></tr>
+<tr><th>Achievement/stamp progress</th><th>Track your pilgrimage milestones</th><th>SharedPreferences</th></tr>
+<tr><th>GPS coordinates of stamp points</th><th>Record where stamps were collected</th><th>SharedPreferences</th></tr>
+<tr><th>Weather cache</th><th>Reduce redundant API calls, enable offline access</th><th>Local cache</th></tr>
+<tr><th>Route preferences</th><th>Remember your selected route and display settings</th><th>SharedPreferences</th></tr>
+<tr><th>Dual Pilgrim mode setting</th><th>Track whether you are pursuing both pilgrimages</th><th>SharedPreferences</th></tr>
+</table>
+<br>
+<h3>2.2 Data Transmitted to a Server (Only When Safety Tracking Is Enabled)</h3>
+<br>
+<table>
+<tr><th>Data</th><th>Purpose</th><th>Storage</th><th>Retention</th></tr>
+<tr><th>GPS coordinates (latitude, longitude)</th><th>Share your location with people you choose</th><th>Device local storage</th><th>Auto-deleted after 7 days</th></tr>
+<tr><th>Timestamp</th><th>Show when a location point was recorded</th><th>Device local storage</th><th>Auto-deleted after 7 days</th></tr>
+</table>
+<br>
+<p><strong>This data is collected only when:</strong></p>
+<li>You explicitly enable the Safety Tracking feature, AND</li>
+<li>You grant location permission to the App through your device's permission dialog.</li>
+<br>
+<p><strong>No tracking data is ever collected without your affirmative, informed consent.</strong></p>
+<br>
+<h3>2.3 Cloud Backup (Optional Sign-In)</h3>
+<br>
+<p>If you choose to sign in with Google or Apple, the following data is collected and stored in Google Cloud Firestore:</p>
+<br>
+<table>
+<tr><th>Data</th><th>Purpose</th><th>Storage</th><th>Retention</th></tr>
+<tr><th>Email address</th><th>Identify your account</th><th>Firebase Authentication (Google Cloud, US)</th><th>Until you delete your account</th></tr>
+<tr><th>Display name</th><th>Show your name in the App</th><th>Firebase Authentication (Google Cloud, US)</th><th>Until you delete your account</th></tr>
+<tr><th>Firebase UID</th><th>Link your cloud data to your account</th><th>Firebase Authentication (Google Cloud, US)</th><th>Until you delete your account</th></tr>
+<tr><th>Stamp collection (without GPS coordinates)</th><th>Back up your pilgrimage progress</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Until you delete your data</th></tr>
+<tr><th>Achievement progress</th><th>Back up your milestones</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Until you delete your data</th></tr>
+<tr><th>App settings (route, language, transport mode)</th><th>Back up your preferences</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Until you delete your data</th></tr>
+</table>
+<br>
+<p><strong>Important:</strong></p>
+<li>Cloud Backup is <strong>entirely optional</strong>. The App works fully without signing in.</li>
+<li><strong>GPS coordinates (latitude/longitude) are never uploaded to the cloud.</strong> They remain on your device only.</li>
+<li>You can delete your cloud data and account at any time from Settings > Delete Account.</li>
+<br>
+<h3>2.4 Data We Do NOT Collect</h3>
+<br>
+<li>We do <strong>not</strong> collect device identifiers, advertising IDs, or analytics data.</li>
+<li>We do <strong>not</strong> use cookies, tracking pixels, or behavioral profiling.</li>
+<li>We do <strong>not</strong> collect health data, biometric data, or movement patterns beyond Safety Tracking GPS points.</li>
+<li>We do <strong>not</strong> upload GPS coordinates to the cloud (stamp locations are stripped of coordinates before cloud backup).</li>
+<br>
+<h2>3. Why We Collect Data (Legal Basis)</h2>
+<br>
+<h3>3.1 Safety Tracking GPS Data</h3>
+<p>Under GDPR Article 6, our legal basis is <strong>explicit consent</strong> (Article 6(1)(a)). You provide this consent by turning on the Safety Tracking feature and granting location permission.</p>
+<br>
+<h3>3.2 Cloud Backup Data</h3>
+<p>Under GDPR Article 6, our legal basis is <strong>explicit consent</strong> (Article 6(1)(a)). You provide this consent by choosing to sign in with Google or Apple. You may withdraw consent at any time by deleting your account.</p>
+<br>
+<h3>3.3 Under Japan APPI</h3>
+<p>We specify the purpose of use at the time of collection: GPS data is collected solely for personal safety purposes. Cloud backup data is collected solely for preserving your pilgrimage progress across devices.</p>
+<br>
+<h3>3.4 Under Brazil LGPD</h3>
+<p>For users in Brazil, the legal basis for processing is consent (LGPD Art. 7, I). You may exercise your rights under LGPD Art. 18 by contacting us or using the in-app account deletion feature.</p>
+<br>
+<h2>4. How We Use Your Data</h2>
+<br>
+<li><strong>Safety Tracking GPS data</strong>: To allow people you share your tracking link with to see your location on a map.</li>
+<li><strong>Cloud Backup data</strong>: To preserve your pilgrimage progress (stamps, achievements, settings) so you can restore it on a new device.</li>
+<br>
+<p>We do not use your data for advertising, analytics, profiling, marketing, route optimization research, or any other purpose.</p>
+<br>
+<h2>5. How We Store Your Data</h2>
+<br>
+<h3>5.1 Local Storage</h3>
+<br>
+<p>Achievement progress, language preferences, weather cache, and route settings are stored using Flutter's SharedPreferences on your device. This data is not encrypted beyond the device-level encryption provided by your operating system (iOS Data Protection / Android file-based encryption).</p>
+<br>
+<h3>5.2 Server Storage (Safety Tracking Only)</h3>
+<br>
+<p>When Safety Tracking is enabled, GPS coordinates and timestamps are transmitted via <strong>HTTPS</strong> (TLS 1.2+). Access to tracking data is controlled by a unique, cryptographically random token generated for each tracking session.</p>
+<br>
+<h3>5.3 Cloud Storage (Cloud Backup Only)</h3>
+<br>
+<p>When you sign in and sync, your progress data (without GPS coordinates) is stored in <strong>Google Cloud Firestore</strong> in the <strong>asia-northeast1 (Tokyo)</strong> region. Data is encrypted at rest and in transit by Google Cloud. Access is restricted to your authenticated account only, enforced by Firestore Security Rules.</p>
+<br>
+<h2>6. Data Retention</h2>
+<br>
+<li><strong>Tracking data</strong> (GPS coordinates and timestamps) is <strong>automatically deleted after 7 days</strong> from the time of recording.</li>
+<li><strong>Local data</strong> (preferences, achievements) persists on your device until you uninstall the App or clear App data.</li>
+<li><strong>Cloud Backup data</strong> persists until you explicitly delete it using the "Delete Account" feature in Settings, or by contacting us.</li>
+<br>
+<h2>7. Who We Share Your Data With</h2>
+<br>
+<p><strong>We do not sell, rent, license, or share your personal data with any third party.</strong></p>
+<br>
+<p>Safety Tracking data is accessible only via a token-based share link that you generate. Cloud Backup data is accessible only to your authenticated account.</p>
+<br>
+<h2>8. Third-Party Services</h2>
+<br>
+<p>The App uses the following third-party services:</p>
+<br>
+<table>
+<tr><th>Service</th><th>Data Sent</th><th>Purpose</th><th>Privacy Policy</th></tr>
+<tr><th><strong>OpenStreetMap (tile.openstreetmap.org)</strong></th><th>Map tile requests (general area coordinates)</th><th>Display map tiles</th><th><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Privacy Policy</a></th></tr>
+<tr><th><strong>JMA (Japan Meteorological Agency)</strong></th><th>Geographic area code (region-level)</th><th>Fetch weather forecasts for Kumano Kodo</th><th><a href="https://www.jma.go.jp/jma/en/copyright.html">JMA Terms</a></th></tr>
+<tr><th><strong>AEMET (Agencia Estatal de Meteorologia)</strong></th><th>Municipio code (town-level)</th><th>Fetch weather forecasts for Camino de Santiago</th><th><a href="https://opendata.aemet.es/centrodedescargas/inicio">AEMET Terms</a></th></tr>
+<tr><th><strong>Firebase Authentication (Google)</strong></th><th>Email, display name, OAuth token</th><th>User sign-in for Cloud Backup</th><th><a href="https://policies.google.com/privacy">Google Privacy Policy</a></th></tr>
+<tr><th><strong>Cloud Firestore (Google)</strong></th><th>Stamps (no GPS), achievements, settings</th><th>Cloud backup storage</th><th><a href="https://cloud.google.com/terms/cloud-privacy-notice">Google Cloud Privacy</a></th></tr>
+<tr><th><strong>Google Sign-In</strong></th><th>Google account OAuth token</th><th>Authentication</th><th><a href="https://policies.google.com/privacy">Google Privacy Policy</a></th></tr>
+<tr><th><strong>Sign in with Apple</strong></th><th>Apple ID token, email (if shared)</th><th>Authentication</th><th><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></th></tr>
+</table>
+<br>
+<p><strong>Note:</strong> Weather data uses only region-level codes. No precise GPS coordinates, device identifiers, or user identifiers are sent to weather services.</p>
+<br>
+<h2>9. Your Rights</h2>
+<br>
+<h3>9.1 Under GDPR (Articles 13-22)</h3>
+<br>
+<p>If you are in the European Economic Area (EEA), you have the following rights:</p>
+<br>
+<li><strong>Right of Access</strong> (Art. 15): Request a copy of any personal data we hold about you.</li>
+<li><strong>Right to Rectification</strong> (Art. 16): Request correction of inaccurate data.</li>
+<li><strong>Right to Erasure</strong> (Art. 17): Request deletion of your data. You can delete your cloud data and account directly in the App (Settings > Delete Account). Tracking data is auto-deleted after 7 days.</li>
+<li><strong>Right to Restriction of Processing</strong> (Art. 18): Request that we limit how we process your data.</li>
+<li><strong>Right to Data Portability</strong> (Art. 20): Request your data in a structured, machine-readable format.</li>
+<li><strong>Right to Object</strong> (Art. 21): Object to processing of your data.</li>
+<li><strong>Right to Withdraw Consent</strong>: Withdraw consent at any time by turning off Safety Tracking, signing out of Cloud Backup, or deleting your account.</li>
+<li><strong>Right to Lodge a Complaint</strong>: Lodge a complaint with a supervisory authority in your country of residence.</li>
+<br>
+<h3>9.2 Under Japan APPI</h3>
+<br>
+<p>If you are in Japan, you have the right to request disclosure, correction, deletion, or cessation of use of your personal data.</p>
+<br>
+<h3>9.3 Under Brazil LGPD</h3>
+<br>
+<p>If you are in Brazil, you have the rights listed in LGPD Art. 18, including: confirmation of processing, access, correction, anonymization, deletion, information about sharing, and revocation of consent. The competent authority is the ANPD (Autoridade Nacional de Protecao de Dados).</p>
+<br>
+<h3>9.4 How to Exercise Your Rights</h3>
+<br>
+<p>To exercise any of these rights, contact us at <strong>[contact@buencamino.app]</strong> or use the in-app "Delete Account" feature. We will respond within 30 days (GDPR) or without delay (APPI/LGPD).</p>
+<br>
+<h2>10. Children's Privacy</h2>
+<br>
+<p>Dual Pilgrim is rated <strong>4+</strong> on the App Store and <strong>Everyone</strong> on Google Play. The App does not knowingly collect personal data from children under 16 (GDPR) or under 12 (Brazil LGPD). Cloud Backup (sign-in) requires a Google or Apple account, which have their own age restrictions. If you believe a child has signed in without appropriate parental consent, please contact us and we will promptly delete the associated data.</p>
+<br>
+<h2>11. Data Security</h2>
+<br>
+<p>We implement the following security measures:</p>
+<br>
+<li><strong>Encryption in Transit</strong>: All data transmitted between the App and servers uses HTTPS (TLS 1.2 or higher).</li>
+<li><strong>Encryption at Rest</strong>: Cloud Backup data is encrypted at rest by Google Cloud Firestore.</li>
+<li><strong>Access Control</strong>: Firestore Security Rules ensure each user can only access their own data.</li>
+<li><strong>Token-Based Access</strong>: Tracking data is accessible only via unique, cryptographically random session tokens.</li>
+<li><strong>Automatic Data Expiry</strong>: Tracking data is automatically purged after 7 days.</li>
+<li><strong>Minimal Data Collection</strong>: GPS coordinates are never uploaded to the cloud. Only essential progress data is backed up.</li>
+<li><strong>Account Deletion</strong>: Users can permanently delete their cloud data and account at any time from within the App.</li>
+<br>
+<h2>12. International Data Transfers</h2>
+<br>
+<p>The Data Controller is based in Taiwan. Cloud Backup data is stored in Google Cloud Firestore (asia-northeast1, Tokyo). Firebase Authentication data may be processed in Google's US infrastructure. For transfers outside the EEA, appropriate safeguards are in place in accordance with GDPR Chapter V, including Google's data processing agreements and standard contractual clauses.</p>
+<br>
+<p>For users in Japan, cross-border transfers comply with APPI requirements. For users in Brazil, transfers comply with LGPD Chapter V.</p>
+<br>
+<h2>13. Changes to This Privacy Policy</h2>
+<br>
+<p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you through an App update. The "Last Updated" date at the top indicates when the latest revision was made.</p>
+<br>
+<p>Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+<br>
+<h2>14. Contact Us</h2>
+<br>
+<p>For any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact:</p>
+<br>
+<p><strong>Luke Chiang</strong></p>
+<p><strong>Email:</strong> [contact@buencamino.app]</p>
+<br>
+<hr>
+<br>
+<p>*This Privacy Policy is designed to comply with the EU General Data Protection Regulation (GDPR), the Japan Act on the Protection of Personal Information (APPI), the Brazil Lei Geral de Protecao de Dados (LGPD), Apple App Store Review Guidelines, and Google Play Developer Policy requirements.*</p>
+<br>
+</body>
+</html>

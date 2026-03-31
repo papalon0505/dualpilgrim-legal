@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zhcn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dual Pilgrim - Privacy Policy</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}
+h1{color:#DAA520}h2{color:#555;border-bottom:1px solid #eee;padding-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}
+a{color:#DAA520}hr{border:none;border-top:1px solid #eee;margin:24px 0}
+.nav{background:#f9f9f9;padding:12px;border-radius:8px;margin-bottom:20px;font-size:14px}
+.nav a{margin-right:12px;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="nav">
+<a href="privacy-policy.html">EN</a>
+<a href="privacy-policy-ja.html">JA</a>
+<a href="privacy-policy-es.html">ES</a>
+<a href="privacy-policy-zh-tw.html">ZH-TW</a>
+<a href="privacy-policy-ko.html">KO</a>
+<a href="privacy-policy-fr.html">FR</a>
+<a href="privacy-policy-de.html">DE</a>
+<a href="privacy-policy-pt.html">PT</a>
+<a href="privacy-policy-it.html">IT</a>
+<a href="privacy-policy-zh-cn.html">ZH-CN</a>
+</div>
+<h1>Dual Pilgrim - 隐私政策</h1>
+<br>
+<p><strong>最后更新日期：2026年3月24日</strong></p>
+<br>
+<p>本隐私政策描述了 Dual Pilgrim（以下简称"应用"、"我们"）及其开发者 Luke Chiang（以下简称"数据控制者"）如何收集、使用、存储和保护您的个人数据。我们致力于依照<strong>《欧盟通用数据保护条例》(GDPR)</strong>、<strong>《日本个人信息保护法》(APPI)</strong>、<strong>《巴西通用数据保护法》(LGPD)</strong> 及其他适用的数据保护法律保护您的隐私。</p>
+<br>
+<hr>
+<br>
+<h2>1. 数据控制者</h2>
+<br>
+<p><strong>姓名：</strong> Luke Chiang</p>
+<p><strong>所在地：</strong> 台湾</p>
+<p><strong>电子邮件：</strong> [contact@buencamino.app]</p>
+<br>
+<p>就 GDPR 而言，Luke Chiang 担任本应用所处理个人数据的数据控制者。</p>
+<br>
+<h2>2. 我们收集哪些数据</h2>
+<br>
+<p>我们仅收集最少量的数据。大部分信息保留在您的设备上。云备份完全可选。</p>
+<br>
+<h3>2.1 仅存储在本地（您的设备上）的数据</h3>
+<br>
+<p>以下数据通过 SharedPreferences 和本地存储专门保存在您的设备上。<strong>除非您选择启用云备份（见第 2.3 节），否则这些数据绝不会传输至任何服务器：</strong></p>
+<br>
+<table>
+<tr><th>数据</th><th>用途</th><th>存储方式</th></tr>
+<tr><th>语言偏好</th><th>以您选择的语言显示应用界面</th><th>SharedPreferences</th></tr>
+<tr><th>成就/印章进度</th><th>记录您的朝圣里程碑</th><th>SharedPreferences</th></tr>
+<tr><th>印章点 GPS 坐标</th><th>记录印章采集地点</th><th>SharedPreferences</th></tr>
+<tr><th>天气缓存</th><th>减少冗余 API 调用，支持离线访问</th><th>本地缓存</th></tr>
+<tr><th>路线偏好</th><th>记住您所选的路线和显示设置</th><th>SharedPreferences</th></tr>
+<tr><th>双朝圣模式设置</th><th>记录您是否同时进行两条朝圣之路</th><th>SharedPreferences</th></tr>
+</table>
+<br>
+<h3>2.2 传输至服务器的数据（仅在启用安全追踪时）</h3>
+<br>
+<table>
+<tr><th>数据</th><th>用途</th><th>存储方式</th><th>保留期限</th></tr>
+<tr><th>GPS 坐标（纬度、经度）</th><th>与您选择的人共享您的位置</th><th>设备本地存储</th><th>录入后 7 天自动删除</th></tr>
+<tr><th>时间戳</th><th>显示位置点的记录时间</th><th>设备本地存储</th><th>录入后 7 天自动删除</th></tr>
+</table>
+<br>
+<p><strong>此类数据仅在以下条件同时满足时收集：</strong></p>
+<li>您明确启用安全追踪功能，且</li>
+<li>您通过设备的权限对话框向应用授予位置权限。</li>
+<br>
+<p><strong>未经您的明确知情同意，我们绝不会收集任何追踪数据。</strong></p>
+<br>
+<h3>2.3 云备份（可选登录）</h3>
+<br>
+<p>如果您选择使用 Google 或 Apple 账号登录，以下数据将被收集并存储在 Google Cloud Firestore 中：</p>
+<br>
+<table>
+<tr><th>数据</th><th>用途</th><th>存储方式</th><th>保留期限</th></tr>
+<tr><th>电子邮件地址</th><th>识别您的账号</th><th>Firebase Authentication（Google Cloud，美国）</th><th>直至您删除账号</th></tr>
+<tr><th>显示名称</th><th>在应用中显示您的姓名</th><th>Firebase Authentication（Google Cloud，美国）</th><th>直至您删除账号</th></tr>
+<tr><th>Firebase UID</th><th>将您的云端数据关联至您的账号</th><th>Firebase Authentication（Google Cloud，美国）</th><th>直至您删除账号</th></tr>
+<tr><th>印章收集记录（不含 GPS 坐标）</th><th>备份您的朝圣进度</th><th>Cloud Firestore（Google Cloud，asia-northeast1）</th><th>直至您删除数据</th></tr>
+<tr><th>成就进度</th><th>备份您的里程碑</th><th>Cloud Firestore（Google Cloud，asia-northeast1）</th><th>直至您删除数据</th></tr>
+<tr><th>应用设置（路线、语言、交通方式）</th><th>备份您的偏好设置</th><th>Cloud Firestore（Google Cloud，asia-northeast1）</th><th>直至您删除数据</th></tr>
+</table>
+<br>
+<p><strong>重要说明：</strong></p>
+<li>云备份<strong>完全可选</strong>。应用无需登录即可正常使用全部功能。</li>
+<li><strong>GPS 坐标（纬度/经度）绝不会上传至云端。</strong> 它们仅保留在您的设备上。</li>
+<li>您可以随时在"设置 > 删除账号"中删除您的云端数据和账号。</li>
+<br>
+<h3>2.4 我们不收集的数据</h3>
+<br>
+<li>我们<strong>不</strong>收集设备标识符、广告 ID 或分析数据。</li>
+<li>我们<strong>不</strong>使用 Cookie、跟踪像素或行为画像技术。</li>
+<li>我们<strong>不</strong>收集健康数据、生物特征数据，也不收集安全追踪 GPS 坐标之外的任何行动轨迹数据。</li>
+<li>我们<strong>不</strong>将 GPS 坐标上传至云端（印章位置在云备份前已剥离坐标信息）。</li>
+<br>
+<h2>3. 我们为何收集数据（法律依据）</h2>
+<br>
+<h3>3.1 安全追踪 GPS 数据</h3>
+<p>根据 GDPR 第 6 条，我们的法律依据是<strong>明确同意</strong>（第 6(1)(a) 条）。您通过开启安全追踪功能并授予位置权限来提供该同意。</p>
+<br>
+<h3>3.2 云备份数据</h3>
+<p>根据 GDPR 第 6 条，我们的法律依据是<strong>明确同意</strong>（第 6(1)(a) 条）。您通过选择使用 Google 或 Apple 登录来提供该同意。您可以随时通过删除账号撤回同意。</p>
+<br>
+<h3>3.3 依据日本 APPI</h3>
+<p>我们在收集数据时明确说明使用目的：GPS 数据仅用于人身安全目的；云备份数据仅用于跨设备保存您的朝圣进度。</p>
+<br>
+<h3>3.4 依据巴西 LGPD</h3>
+<p>对于巴西用户，数据处理的法律依据为知情同意（LGPD 第 7 条第 I 款）。您可以通过联系我们或使用应用内的账号删除功能行使 LGPD 第 18 条规定的权利。</p>
+<br>
+<h2>4. 我们如何使用您的数据</h2>
+<br>
+<li><strong>安全追踪 GPS 数据</strong>：使您分享追踪链接的对象能在地图上查看您的位置。</li>
+<li><strong>云备份数据</strong>：保存您的朝圣进度（印章、成就、设置），以便您在新设备上恢复。</li>
+<br>
+<p>我们不将您的数据用于广告、数据分析、用户画像、营销、路线优化研究或任何其他目的。</p>
+<br>
+<h2>5. 我们如何存储您的数据</h2>
+<br>
+<h3>5.1 本地存储</h3>
+<br>
+<p>成就进度、语言偏好、天气缓存和路线设置使用 Flutter 的 SharedPreferences 存储在您的设备上。除操作系统提供的设备级加密（iOS 数据保护 / Android 基于文件的加密）外，这些数据不作额外加密处理。</p>
+<br>
+<h3>5.2 服务器存储（仅限安全追踪）</h3>
+<br>
+<p>启用安全追踪后，GPS 坐标和时间戳通过 <strong>HTTPS</strong>（TLS 1.2 及以上版本）传输。每次追踪会话均会生成唯一的加密随机令牌来控制追踪数据的访问权限。</p>
+<br>
+<h3>5.3 云存储（仅限云备份）</h3>
+<br>
+<p>当您登录并同步后，您的进度数据（不含 GPS 坐标）将存储在 <strong>Google Cloud Firestore</strong> 的 <strong>asia-northeast1（东京）</strong> 区域。数据由 Google Cloud 进行静态加密和传输加密。访问权限仅限于您经过身份验证的账号，并通过 Firestore 安全规则强制执行。</p>
+<br>
+<h2>6. 数据保留</h2>
+<br>
+<li><strong>追踪数据</strong>（GPS 坐标和时间戳）自记录之时起 <strong>7 天后自动删除</strong>。</li>
+<li><strong>本地数据</strong>（偏好设置、成就）保留在您的设备上，直至您卸载应用或清除应用数据。</li>
+<li><strong>云备份数据</strong>持续保留，直至您通过"设置"中的"删除账号"功能或联系我们明确删除。</li>
+<br>
+<h2>7. 我们与谁共享您的数据</h2>
+<br>
+<p><strong>我们不会向任何第三方出售、出租、许可或共享您的个人数据。</strong></p>
+<br>
+<p>安全追踪数据仅可通过您生成的基于令牌的分享链接访问。云备份数据仅可由您经过身份验证的账号访问。</p>
+<br>
+<h2>8. 第三方服务</h2>
+<br>
+<p>本应用使用以下第三方服务：</p>
+<br>
+<table>
+<tr><th>服务</th><th>发送的数据</th><th>用途</th><th>隐私政策</th></tr>
+<tr><th><strong>OpenStreetMap (tile.openstreetmap.org)</strong></th><th>地图瓦片请求（大致区域坐标）</th><th>显示地图瓦片</th><th><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap 隐私政策</a></th></tr>
+<tr><th><strong>JMA（日本气象厅）</strong></th><th>地理区域代码（地区级别）</th><th>获取熊野古道天气预报</th><th><a href="https://www.jma.go.jp/jma/en/copyright.html">JMA 条款</a></th></tr>
+<tr><th><strong>AEMET（西班牙国家气象局）</strong></th><th>市镇代码（城镇级别）</th><th>获取圣地亚哥朝圣之路天气预报</th><th><a href="https://opendata.aemet.es/centrodedescargas/inicio">AEMET 条款</a></th></tr>
+<tr><th><strong>Firebase Authentication（Google）</strong></th><th>电子邮件、显示名称、OAuth 令牌</th><th>云备份用户登录</th><th><a href="https://policies.google.com/privacy">Google 隐私政策</a></th></tr>
+<tr><th><strong>Cloud Firestore（Google）</strong></th><th>印章（不含 GPS）、成就、设置</th><th>云备份存储</th><th><a href="https://cloud.google.com/terms/cloud-privacy-notice">Google Cloud 隐私声明</a></th></tr>
+<tr><th><strong>Google 登录</strong></th><th>Google 账号 OAuth 令牌</th><th>身份验证</th><th><a href="https://policies.google.com/privacy">Google 隐私政策</a></th></tr>
+<tr><th><strong>通过 Apple 登录</strong></th><th>Apple ID 令牌、电子邮件（如已分享）</th><th>身份验证</th><th><a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a></th></tr>
+</table>
+<br>
+<p><strong>注意：</strong> 天气数据仅使用地区级别代码。不会向天气服务发送精确 GPS 坐标、设备标识符或用户标识符。</p>
+<br>
+<h2>9. 您的权利</h2>
+<br>
+<h3>9.1 依据 GDPR（第 13-22 条）</h3>
+<br>
+<p>如果您位于欧洲经济区 (EEA)，您享有以下权利：</p>
+<br>
+<li><strong>访问权</strong>（第 15 条）：请求获取我们持有的您的个人数据副本。</li>
+<li><strong>更正权</strong>（第 16 条）：请求更正不准确的数据。</li>
+<li><strong>删除权</strong>（第 17 条）：请求删除您的数据。您可以直接在应用中删除云端数据和账号（设置 > 删除账号）。追踪数据在 7 天后自动删除。</li>
+<li><strong>限制处理权</strong>（第 18 条）：请求限制我们处理您数据的方式。</li>
+<li><strong>数据可携带权</strong>（第 20 条）：请求以结构化、机器可读的格式获取您的数据。</li>
+<li><strong>反对权</strong>（第 21 条）：反对我们处理您的数据。</li>
+<li><strong>撤回同意的权利</strong>：随时通过关闭安全追踪、退出云备份登录或删除账号来撤回同意。</li>
+<li><strong>投诉权</strong>：向您所在居住国的监管机构提出投诉。</li>
+<br>
+<h3>9.2 依据日本 APPI</h3>
+<br>
+<p>如果您位于日本，您有权请求披露、更正、删除或停止使用您的个人数据。</p>
+<br>
+<h3>9.3 依据巴西 LGPD</h3>
+<br>
+<p>如果您位于巴西，您享有 LGPD 第 18 条规定的权利，包括：确认数据处理行为、访问、更正、匿名化、删除、获取共享信息以及撤回同意。主管机构为 ANPD（国家数据保护局）。</p>
+<br>
+<h3>9.4 如何行使您的权利</h3>
+<br>
+<p>如需行使上述任何权利，请通过 <strong>[contact@buencamino.app]</strong> 联系我们，或使用应用内的"删除账号"功能。我们将在 30 天内（GDPR）或不迟延地（APPI/LGPD）作出回复。</p>
+<br>
+<h2>10. 儿童隐私</h2>
+<br>
+<p>Dual Pilgrim 在 App Store 上的年龄分级为 <strong>4+</strong>，在 Google Play 上的内容分级为<strong>所有人</strong>。本应用不会故意收集 16 周岁以下（GDPR）或 12 周岁以下（巴西 LGPD）儿童的个人数据。云备份（登录）需要 Google 或 Apple 账号，这些服务有各自的年龄限制。如果您认为有儿童在未获得适当监护人同意的情况下登录，请联系我们，我们将立即删除相关数据。</p>
+<br>
+<h2>11. 数据安全</h2>
+<br>
+<p>我们采取以下安全措施：</p>
+<br>
+<li><strong>传输加密</strong>：应用与服务器之间传输的所有数据均使用 HTTPS（TLS 1.2 或更高版本）。</li>
+<li><strong>静态加密</strong>：云备份数据由 Google Cloud Firestore 进行静态加密。</li>
+<li><strong>访问控制</strong>：Firestore 安全规则确保每位用户只能访问自己的数据。</li>
+<li><strong>基于令牌的访问控制</strong>：追踪数据仅可通过唯一的加密随机会话令牌访问。</li>
+<li><strong>数据自动过期</strong>：追踪数据在 7 天后自动清除。</li>
+<li><strong>最小化数据收集</strong>：GPS 坐标绝不上传至云端。仅备份必要的进度数据。</li>
+<li><strong>账号删除</strong>：用户可以随时在应用内永久删除其云端数据和账号。</li>
+<br>
+<h2>12. 跨境数据传输</h2>
+<br>
+<p>数据控制者位于台湾。云备份数据存储在 Google Cloud Firestore（asia-northeast1，东京）。Firebase Authentication 数据可能在 Google 的美国基础设施中处理。对于欧洲经济区以外的数据传输，我们已根据 GDPR 第五章的规定采取适当的保障措施，包括 Google 的数据处理协议和标准合同条款。</p>
+<br>
+<p>对于日本用户，跨境数据传输符合 APPI 的要求。对于巴西用户，数据传输符合 LGPD 第五章的规定。</p>
+<br>
+<h2>13. 隐私政策的变更</h2>
+<br>
+<p>我们可能会不时更新本隐私政策。如发生重大变更，我们将通过应用更新通知您。顶部的"最后更新日期"标明最新修订的时间。</p>
+<br>
+<p>在变更生效后继续使用本应用即表示您接受更新后的政策。</p>
+<br>
+<h2>14. 联系我们</h2>
+<br>
+<p>如您对本隐私政策或您的个人数据有任何疑问、关切或请求，请联系：</p>
+<br>
+<p><strong>Luke Chiang</strong></p>
+<p><strong>电子邮件：</strong> [contact@buencamino.app]</p>
+<br>
+<hr>
+<br>
+<p>*本隐私政策旨在符合《欧盟通用数据保护条例》(GDPR)、《日本个人信息保护法》(APPI)、《巴西通用数据保护法》(LGPD)、Apple App Store 审核指南及 Google Play 开发者政策的要求。*</p>
+<br>
+</body>
+</html>

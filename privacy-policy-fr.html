@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dual Pilgrim - Privacy Policy</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}
+h1{color:#DAA520}h2{color:#555;border-bottom:1px solid #eee;padding-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:16px 0}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}
+a{color:#DAA520}hr{border:none;border-top:1px solid #eee;margin:24px 0}
+.nav{background:#f9f9f9;padding:12px;border-radius:8px;margin-bottom:20px;font-size:14px}
+.nav a{margin-right:12px;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="nav">
+<a href="privacy-policy.html">EN</a>
+<a href="privacy-policy-ja.html">JA</a>
+<a href="privacy-policy-es.html">ES</a>
+<a href="privacy-policy-zh-tw.html">ZH-TW</a>
+<a href="privacy-policy-ko.html">KO</a>
+<a href="privacy-policy-fr.html">FR</a>
+<a href="privacy-policy-de.html">DE</a>
+<a href="privacy-policy-pt.html">PT</a>
+<a href="privacy-policy-it.html">IT</a>
+<a href="privacy-policy-zh-cn.html">ZH-CN</a>
+</div>
+<h1>Dual Pilgrim - Politique de confidentialité</h1>
+<br>
+<p><strong>Dernière mise à jour : 24 mars 2026</strong></p>
+<br>
+<p>La présente Politique de confidentialité décrit la manière dont Dual Pilgrim (« Application », « nous », « notre » ou « nos »), développée par Luke Chiang (« Responsable du traitement »), collecte, utilise, stocke et protège vos données personnelles. Nous nous engageons à protéger votre vie privée conformément au <strong>Règlement Général sur la Protection des Données (RGPD) de l'Union européenne</strong>, à la <strong>Loi japonaise sur la protection des informations personnelles (APPI)</strong>, à la <strong>Loi générale brésilienne sur la protection des données (LGPD)</strong> et à toute autre législation applicable en matière de protection des données.</p>
+<br>
+<hr>
+<br>
+<h2>1. Responsable du traitement</h2>
+<br>
+<p><strong>Nom :</strong> Luke Chiang</p>
+<p><strong>Localisation :</strong> Taïwan</p>
+<p><strong>Courriel :</strong> [contact@buencamino.app]</p>
+<br>
+<p>Aux fins du RGPD, Luke Chiang agit en qualité de Responsable du traitement pour toute donnée personnelle traitée par l'intermédiaire de l'Application.</p>
+<br>
+<h2>2. Données que nous collectons</h2>
+<br>
+<p>Nous collectons un minimum de données. La plupart des informations restent sur votre appareil. La sauvegarde dans le cloud est entièrement facultative.</p>
+<br>
+<h3>2.1 Données stockées uniquement en local (sur votre appareil)</h3>
+<br>
+<p>Les données suivantes sont stockées exclusivement sur votre appareil à l'aide de SharedPreferences et du stockage local. <strong>Ces données ne sont jamais transmises à un quelconque serveur, sauf si vous activez la Sauvegarde cloud (Section 2.3) :</strong></p>
+<br>
+<table>
+<tr><th>Donnée</th><th>Finalité</th><th>Stockage</th></tr>
+<tr><th>Préférence linguistique</th><th>Afficher l'Application dans la langue de votre choix</th><th>SharedPreferences</th></tr>
+<tr><th>Progression des accomplissements/tampons</th><th>Suivre les étapes de votre pèlerinage</th><th>SharedPreferences</th></tr>
+<tr><th>Coordonnées GPS des points de tampon</th><th>Enregistrer les lieux où les tampons ont été collectés</th><th>SharedPreferences</th></tr>
+<tr><th>Cache météorologique</th><th>Réduire les appels API redondants, permettre l'accès hors ligne</th><th>Cache local</th></tr>
+<tr><th>Préférences d'itinéraire</th><th>Mémoriser votre itinéraire sélectionné et vos paramètres d'affichage</th><th>SharedPreferences</th></tr>
+<tr><th>Paramètre du mode Dual Pilgrim</th><th>Suivre si vous poursuivez les deux pèlerinages</th><th>SharedPreferences</th></tr>
+</table>
+<br>
+<h3>2.2 Données transmises à un serveur (uniquement lorsque le Suivi de sécurité est activé)</h3>
+<br>
+<table>
+<tr><th>Donnée</th><th>Finalité</th><th>Stockage</th><th>Conservation</th></tr>
+<tr><th>Coordonnées GPS (latitude, longitude)</th><th>Partager votre position avec les personnes de votre choix</th><th>Stockage local de l'appareil</th><th>Suppression automatique après 7 jours</th></tr>
+<tr><th>Horodatage</th><th>Indiquer le moment où un point de localisation a été enregistré</th><th>Stockage local de l'appareil</th><th>Suppression automatique après 7 jours</th></tr>
+</table>
+<br>
+<p><strong>Ces données ne sont collectées que lorsque :</strong></p>
+<li>Vous activez explicitement la fonctionnalité de Suivi de sécurité, ET</li>
+<li>Vous accordez l'autorisation de localisation à l'Application via la boîte de dialogue d'autorisation de votre appareil.</li>
+<br>
+<p><strong>Aucune donnée de suivi n'est collectée sans votre consentement affirmatif et éclairé.</strong></p>
+<br>
+<h3>2.3 Sauvegarde cloud (connexion facultative)</h3>
+<br>
+<p>Si vous choisissez de vous connecter avec Google ou Apple, les données suivantes sont collectées et stockées dans Google Cloud Firestore :</p>
+<br>
+<table>
+<tr><th>Donnée</th><th>Finalité</th><th>Stockage</th><th>Conservation</th></tr>
+<tr><th>Adresse électronique</th><th>Identifier votre compte</th><th>Firebase Authentication (Google Cloud, États-Unis)</th><th>Jusqu'à la suppression de votre compte</th></tr>
+<tr><th>Nom d'affichage</th><th>Afficher votre nom dans l'Application</th><th>Firebase Authentication (Google Cloud, États-Unis)</th><th>Jusqu'à la suppression de votre compte</th></tr>
+<tr><th>UID Firebase</th><th>Associer vos données cloud à votre compte</th><th>Firebase Authentication (Google Cloud, États-Unis)</th><th>Jusqu'à la suppression de votre compte</th></tr>
+<tr><th>Collection de tampons (sans coordonnées GPS)</th><th>Sauvegarder votre progression de pèlerinage</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Jusqu'à la suppression de vos données</th></tr>
+<tr><th>Progression des accomplissements</th><th>Sauvegarder vos étapes</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Jusqu'à la suppression de vos données</th></tr>
+<tr><th>Paramètres de l'Application (itinéraire, langue, mode de transport)</th><th>Sauvegarder vos préférences</th><th>Cloud Firestore (Google Cloud, asia-northeast1)</th><th>Jusqu'à la suppression de vos données</th></tr>
+</table>
+<br>
+<p><strong>Important :</strong></p>
+<li>La Sauvegarde cloud est <strong>entièrement facultative</strong>. L'Application fonctionne pleinement sans connexion.</li>
+<li><strong>Les coordonnées GPS (latitude/longitude) ne sont jamais téléversées vers le cloud.</strong> Elles restent uniquement sur votre appareil.</li>
+<li>Vous pouvez supprimer vos données cloud et votre compte à tout moment depuis Paramètres > Supprimer le compte.</li>
+<br>
+<h3>2.4 Données que nous ne collectons PAS</h3>
+<br>
+<li>Nous ne collectons <strong>pas</strong> d'identifiants d'appareil, d'identifiants publicitaires ni de données analytiques.</li>
+<li>Nous n'utilisons <strong>pas</strong> de cookies, de pixels de suivi ni de profilage comportemental.</li>
+<li>Nous ne collectons <strong>pas</strong> de données de santé, de données biométriques ni de schémas de déplacement au-delà des points GPS du Suivi de sécurité.</li>
+<li>Nous ne téléversons <strong>pas</strong> de coordonnées GPS vers le cloud (les coordonnées sont supprimées des données de tampon avant la sauvegarde cloud).</li>
+<br>
+<h2>3. Pourquoi nous collectons des données (base juridique)</h2>
+<br>
+<h3>3.1 Données GPS du Suivi de sécurité</h3>
+<p>En vertu de l'article 6 du RGPD, notre base juridique est le <strong>consentement explicite</strong> (article 6, paragraphe 1, point a)). Vous fournissez ce consentement en activant la fonctionnalité de Suivi de sécurité et en accordant l'autorisation de localisation.</p>
+<br>
+<h3>3.2 Données de la Sauvegarde cloud</h3>
+<p>En vertu de l'article 6 du RGPD, notre base juridique est le <strong>consentement explicite</strong> (article 6, paragraphe 1, point a)). Vous fournissez ce consentement en choisissant de vous connecter avec Google ou Apple. Vous pouvez retirer votre consentement à tout moment en supprimant votre compte.</p>
+<br>
+<h3>3.3 En vertu de la loi japonaise APPI</h3>
+<p>Nous spécifions la finalité de l'utilisation au moment de la collecte : les données GPS sont collectées uniquement à des fins de sécurité personnelle. Les données de sauvegarde cloud sont collectées uniquement pour préserver votre progression de pèlerinage sur plusieurs appareils.</p>
+<br>
+<h3>3.4 En vertu de la loi brésilienne LGPD</h3>
+<p>Pour les utilisateurs au Brésil, la base juridique du traitement est le consentement (LGPD, art. 7, I). Vous pouvez exercer vos droits en vertu de l'art. 18 de la LGPD en nous contactant ou en utilisant la fonctionnalité de suppression de compte intégrée à l'Application.</p>
+<br>
+<h2>4. Comment nous utilisons vos données</h2>
+<br>
+<li><strong>Données GPS du Suivi de sécurité</strong> : Pour permettre aux personnes avec lesquelles vous partagez votre lien de suivi de voir votre position sur une carte.</li>
+<li><strong>Données de la Sauvegarde cloud</strong> : Pour préserver votre progression de pèlerinage (tampons, accomplissements, paramètres) afin que vous puissiez la restaurer sur un nouvel appareil.</li>
+<br>
+<p>Nous n'utilisons pas vos données à des fins publicitaires, analytiques, de profilage, de marketing, de recherche d'optimisation d'itinéraire ni à toute autre fin.</p>
+<br>
+<h2>5. Comment nous stockons vos données</h2>
+<br>
+<h3>5.1 Stockage local</h3>
+<br>
+<p>La progression des accomplissements, les préférences linguistiques, le cache météorologique et les paramètres d'itinéraire sont stockés à l'aide de SharedPreferences de Flutter sur votre appareil. Ces données ne bénéficient pas de chiffrement supplémentaire au-delà du chiffrement au niveau de l'appareil fourni par votre système d'exploitation (iOS Data Protection / chiffrement basé sur les fichiers Android).</p>
+<br>
+<h3>5.2 Stockage serveur (Suivi de sécurité uniquement)</h3>
+<br>
+<p>Lorsque le Suivi de sécurité est activé, les coordonnées GPS et les horodatages sont transmis via <strong>HTTPS</strong> (TLS 1.2 ou supérieur). L'accès aux données de suivi est contrôlé par un jeton unique, généré de manière cryptographiquement aléatoire pour chaque session de suivi.</p>
+<br>
+<h3>5.3 Stockage cloud (Sauvegarde cloud uniquement)</h3>
+<br>
+<p>Lorsque vous vous connectez et synchronisez, vos données de progression (sans coordonnées GPS) sont stockées dans <strong>Google Cloud Firestore</strong> dans la région <strong>asia-northeast1 (Tokyo)</strong>. Les données sont chiffrées au repos et en transit par Google Cloud. L'accès est restreint à votre seul compte authentifié, garanti par les règles de sécurité Firestore.</p>
+<br>
+<h2>6. Conservation des données</h2>
+<br>
+<li><strong>Données de suivi</strong> (coordonnées GPS et horodatages) : <strong>supprimées automatiquement après 7 jours</strong> à compter de l'enregistrement.</li>
+<li><strong>Données locales</strong> (préférences, accomplissements) : conservées sur votre appareil jusqu'à la désinstallation de l'Application ou la suppression des données de l'Application.</li>
+<li><strong>Données de la Sauvegarde cloud</strong> : conservées jusqu'à ce que vous les supprimiez explicitement via la fonctionnalité « Supprimer le compte » dans les Paramètres, ou en nous contactant.</li>
+<br>
+<h2>7. Avec qui nous partageons vos données</h2>
+<br>
+<p><strong>Nous ne vendons, ne louons, ne concédons sous licence ni ne partageons vos données personnelles avec un quelconque tiers.</strong></p>
+<br>
+<p>Les données du Suivi de sécurité ne sont accessibles que via un lien de partage basé sur un jeton que vous générez. Les données de la Sauvegarde cloud ne sont accessibles qu'à votre compte authentifié.</p>
+<br>
+<h2>8. Services tiers</h2>
+<br>
+<p>L'Application utilise les services tiers suivants :</p>
+<br>
+<table>
+<tr><th>Service</th><th>Données envoyées</th><th>Finalité</th><th>Politique de confidentialité</th></tr>
+<tr><th><strong>OpenStreetMap (tile.openstreetmap.org)</strong></th><th>Requêtes de tuiles cartographiques (coordonnées de zone générale)</th><th>Afficher les tuiles de la carte</th><th><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">Politique de confidentialité d'OpenStreetMap</a></th></tr>
+<tr><th><strong>JMA (Agence météorologique du Japon)</strong></th><th>Code de zone géographique (niveau régional)</th><th>Récupérer les prévisions météorologiques pour le Kumano Kodo</th><th><a href="https://www.jma.go.jp/jma/en/copyright.html">Conditions d'utilisation de la JMA</a></th></tr>
+<tr><th><strong>AEMET (Agence météorologique nationale d'Espagne)</strong></th><th>Code de municipio (niveau communal)</th><th>Récupérer les prévisions météorologiques pour le Camino de Santiago</th><th><a href="https://opendata.aemet.es/centrodedescargas/inicio">Conditions d'utilisation de l'AEMET</a></th></tr>
+<tr><th><strong>Firebase Authentication (Google)</strong></th><th>Adresse électronique, nom d'affichage, jeton OAuth</th><th>Connexion de l'utilisateur pour la Sauvegarde cloud</th><th><a href="https://policies.google.com/privacy">Politique de confidentialité de Google</a></th></tr>
+<tr><th><strong>Cloud Firestore (Google)</strong></th><th>Tampons (sans GPS), accomplissements, paramètres</th><th>Stockage de la sauvegarde cloud</th><th><a href="https://cloud.google.com/terms/cloud-privacy-notice">Confidentialité de Google Cloud</a></th></tr>
+<tr><th><strong>Connexion avec Google</strong></th><th>Jeton OAuth du compte Google</th><th>Authentification</th><th><a href="https://policies.google.com/privacy">Politique de confidentialité de Google</a></th></tr>
+<tr><th><strong>Connexion avec Apple</strong></th><th>Jeton Apple ID, adresse électronique (si partagée)</th><th>Authentification</th><th><a href="https://www.apple.com/legal/privacy/">Politique de confidentialité d'Apple</a></th></tr>
+</table>
+<br>
+<p><strong>Remarque :</strong> Les données météorologiques utilisent uniquement des codes de niveau régional. Aucune coordonnée GPS précise, aucun identifiant d'appareil ni identifiant d'utilisateur n'est envoyé aux services météorologiques.</p>
+<br>
+<h2>9. Vos droits</h2>
+<br>
+<h3>9.1 En vertu du RGPD (articles 13 à 22)</h3>
+<br>
+<p>Si vous résidez dans l'Espace économique européen (EEE), vous disposez des droits suivants :</p>
+<br>
+<li><strong>Droit d'accès</strong> (art. 15) : Demander une copie de toute donnée personnelle que nous détenons à votre sujet.</li>
+<li><strong>Droit de rectification</strong> (art. 16) : Demander la correction de données inexactes.</li>
+<li><strong>Droit à l'effacement</strong> (art. 17) : Demander la suppression de vos données. Vous pouvez supprimer vos données cloud et votre compte directement dans l'Application (Paramètres > Supprimer le compte). Les données de suivi sont automatiquement supprimées après 7 jours.</li>
+<li><strong>Droit à la limitation du traitement</strong> (art. 18) : Demander que nous limitions la manière dont nous traitons vos données.</li>
+<li><strong>Droit à la portabilité des données</strong> (art. 20) : Demander vos données dans un format structuré, couramment utilisé et lisible par machine.</li>
+<li><strong>Droit d'opposition</strong> (art. 21) : Vous opposer au traitement de vos données.</li>
+<li><strong>Droit de retirer votre consentement</strong> : Retirer votre consentement à tout moment en désactivant le Suivi de sécurité, en vous déconnectant de la Sauvegarde cloud ou en supprimant votre compte.</li>
+<li><strong>Droit d'introduire une réclamation</strong> : Introduire une réclamation auprès d'une autorité de contrôle dans votre pays de résidence.</li>
+<br>
+<h3>9.2 En vertu de la loi japonaise APPI</h3>
+<br>
+<p>Si vous résidez au Japon, vous avez le droit de demander la divulgation, la correction, la suppression ou la cessation de l'utilisation de vos données personnelles.</p>
+<br>
+<h3>9.3 En vertu de la loi brésilienne LGPD</h3>
+<br>
+<p>Si vous résidez au Brésil, vous disposez des droits énumérés à l'art. 18 de la LGPD, notamment : la confirmation du traitement, l'accès, la correction, l'anonymisation, la suppression, les informations relatives au partage et la révocation du consentement. L'autorité compétente est l'ANPD (Autoridade Nacional de Proteção de Dados).</p>
+<br>
+<h3>9.4 Comment exercer vos droits</h3>
+<br>
+<p>Pour exercer l'un de ces droits, contactez-nous à l'adresse <strong>[contact@buencamino.app]</strong> ou utilisez la fonctionnalité « Supprimer le compte » intégrée à l'Application. Nous répondrons dans un délai de 30 jours (RGPD) ou sans retard (APPI/LGPD).</p>
+<br>
+<h2>10. Protection des données des enfants</h2>
+<br>
+<p>Dual Pilgrim est classé <strong>4+</strong> sur l'App Store et <strong>Tout public</strong> sur Google Play. L'Application ne collecte pas sciemment de données personnelles auprès d'enfants de moins de 16 ans (RGPD) ou de moins de 12 ans (LGPD du Brésil). La Sauvegarde cloud (connexion) nécessite un compte Google ou Apple, qui imposent leurs propres restrictions d'âge. Si vous pensez qu'un enfant s'est connecté sans le consentement parental approprié, veuillez nous contacter et nous supprimerons rapidement les données associées.</p>
+<br>
+<h2>11. Sécurité des données</h2>
+<br>
+<p>Nous mettons en œuvre les mesures de sécurité suivantes :</p>
+<br>
+<li><strong>Chiffrement en transit</strong> : Toutes les données transmises entre l'Application et les serveurs utilisent le protocole HTTPS (TLS 1.2 ou supérieur).</li>
+<li><strong>Chiffrement au repos</strong> : Les données de la Sauvegarde cloud sont chiffrées au repos par Google Cloud Firestore.</li>
+<li><strong>Contrôle d'accès</strong> : Les règles de sécurité Firestore garantissent que chaque utilisateur ne peut accéder qu'à ses propres données.</li>
+<li><strong>Accès par jeton</strong> : Les données de suivi ne sont accessibles que via des jetons de session uniques, générés de manière cryptographiquement aléatoire.</li>
+<li><strong>Expiration automatique des données</strong> : Les données de suivi sont automatiquement purgées après 7 jours.</li>
+<li><strong>Collecte minimale de données</strong> : Les coordonnées GPS ne sont jamais téléversées vers le cloud. Seules les données de progression essentielles sont sauvegardées.</li>
+<li><strong>Suppression du compte</strong> : Les utilisateurs peuvent supprimer définitivement leurs données cloud et leur compte à tout moment depuis l'Application.</li>
+<br>
+<h2>12. Transferts internationaux de données</h2>
+<br>
+<p>Le Responsable du traitement est établi à Taïwan. Les données de la Sauvegarde cloud sont stockées dans Google Cloud Firestore (asia-northeast1, Tokyo). Les données de Firebase Authentication peuvent être traitées dans l'infrastructure américaine de Google. Pour les transferts en dehors de l'EEE, des garanties appropriées sont mises en place conformément au Chapitre V du RGPD, notamment les accords de traitement des données de Google et les clauses contractuelles types.</p>
+<br>
+<p>Pour les utilisateurs au Japon, les transferts transfrontaliers sont conformes aux exigences de l'APPI. Pour les utilisateurs au Brésil, les transferts sont conformes au Chapitre V de la LGPD.</p>
+<br>
+<h2>13. Modifications de la présente Politique de confidentialité</h2>
+<br>
+<p>Nous pouvons mettre à jour la présente Politique de confidentialité de temps à autre. En cas de modifications substantielles, nous vous en informerons par le biais d'une mise à jour de l'Application. La date de « Dernière mise à jour » figurant en haut du document indique la date de la dernière révision.</p>
+<br>
+<p>L'utilisation continue de l'Application après toute modification vaut acceptation de la politique mise à jour.</p>
+<br>
+<h2>14. Nous contacter</h2>
+<br>
+<p>Pour toute question, préoccupation ou demande concernant la présente Politique de confidentialité ou vos données personnelles, veuillez contacter :</p>
+<br>
+<p><strong>Luke Chiang</strong></p>
+<p><strong>Courriel :</strong> [contact@buencamino.app]</p>
+<br>
+<hr>
+<br>
+<p>*La présente Politique de confidentialité est conçue pour être conforme au Règlement Général sur la Protection des Données (RGPD) de l'Union européenne, à la Loi japonaise sur la protection des informations personnelles (APPI), à la Loi générale brésilienne sur la protection des données (LGPD), aux Directives d'examen de l'App Store d'Apple et aux exigences de la Politique du programme pour les développeurs de Google Play.*</p>
+<br>
+</body>
+</html>
